@@ -15,3 +15,4 @@ GRANT ALL PRIVILEGES ON hbnb_test_db.* TO 'hbnb_test'@'localhost';
 -- Grants the SELECT privilege on all tables in the performance_schema database to the user hbnb_test on localhost
 GRANT SELECT ON performance_schema.* TO 'hbnb_test'@'localhost';
 
+FLUSH PRIVILEGES;
